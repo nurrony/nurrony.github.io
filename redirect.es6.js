@@ -9,14 +9,14 @@
 
   const changeLink = () => {
     const element = document.body.querySelector('#fallback-link');
-    const newLink = 'http://www.nmrony.info';
+    const newLink = 'https://www.nurrony.info';
     element.setAttribute('href', newLink);
   }
 
   ready(() => {
     changeLink();
     setTimeout(() => {
-      window.location = 'http://www.nmrony.info';
+      window.location = 'https://www.nurrony.info';
     }, 5000);
   });
 }
